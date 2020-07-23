@@ -81,32 +81,31 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = "./src/list.js");
+/******/ 	return __webpack_require__(__webpack_require__.s = "./src/txt-demo.js");
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ "./src/bar2.js":
-/*!*********************!*\
-  !*** ./src/bar2.js ***!
-  \*********************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ "./src/data/csdn.txt":
+/*!***************************!*\
+  !*** ./src/data/csdn.txt ***!
+  \***************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
 
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"default\", function() { return bar2; });\nfunction bar2() {\r\n    console.log('bar2');\r\n}\n\n//# sourceURL=webpack:///./src/bar2.js?");
+eval("web开发\n\n//# sourceURL=webpack:///./src/data/csdn.txt?");
 
 /***/ }),
 
-/***/ "./src/list.js":
-/*!*********************!*\
-  !*** ./src/list.js ***!
-  \*********************/
+/***/ "./src/txt-demo.js":
+/*!*************************!*\
+  !*** ./src/txt-demo.js ***!
+  \*************************/
 /*! no exports provided */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _bar2__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./bar2 */ \"./src/bar2.js\");\n\r\n\r\nObject(_bar2__WEBPACK_IMPORTED_MODULE_0__[\"default\"])();\n\n//# sourceURL=webpack:///./src/list.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _data_csdn_txt__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./data/csdn.txt */ \"./src/data/csdn.txt\");\n/* harmony import */ var _data_csdn_txt__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_data_csdn_txt__WEBPACK_IMPORTED_MODULE_0__);\n\r\n\r\nconsole.log(_data_csdn_txt__WEBPACK_IMPORTED_MODULE_0___default.a);\n\n//# sourceURL=webpack:///./src/txt-demo.js?");
 
 /***/ })
 
