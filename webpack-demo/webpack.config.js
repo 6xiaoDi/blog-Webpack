@@ -43,11 +43,14 @@ module.exports = {
 
             {
                 test: /\.(png|jpe?g|gif)$/,
+                // 用到options。use采用对象的形式，怎么配置我们具体看loader的使用说明，如下图
                 use: {
                     loader: 'file-loader',
                     options: {
-                        //为你的文件配置自定义 `public` 发布目录
-                        publicPath: '../dist/'
+                        //打包后的存放位置
+                        outputPath: "./images",
+                        //为你的文件配置自定义资源url引用路径
+                        publicPath: '../dist/images/'
                     }
                 }
             }

@@ -106,7 +106,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _ima
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"../dist/031058a341e009e9f3fa7a10375d2225.jpg\");\n\n//# sourceURL=webpack:///./src/images/img.jpg?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"../dist/images/031058a341e009e9f3fa7a10375d2225.jpg\");\n\n//# sourceURL=webpack:///./src/images/img.jpg?");
 
 /***/ })
 
