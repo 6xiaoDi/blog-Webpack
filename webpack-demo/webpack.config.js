@@ -10,6 +10,7 @@ module.exports = {
 
         'txt-demo': './src/txt-demo.js',
         'markdown-demo': './src/markdown-demo.js',
+        'file-demo': './src/file-demo.js',
     },
 
     output: {
