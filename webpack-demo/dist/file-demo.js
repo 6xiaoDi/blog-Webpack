@@ -94,7 +94,7 @@
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _images_img_jpg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./images/img.jpg */ \"./src/images/img.jpg\");\n/* harmony import */ var _images_img_jpg__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_images_img_jpg__WEBPACK_IMPORTED_MODULE_0__);\n\r\n\r\nconsole.log(_images_img_jpg__WEBPACK_IMPORTED_MODULE_0___default.a);\r\n\r\nlet img = new Image();\r\nimg.src = _images_img_jpg__WEBPACK_IMPORTED_MODULE_0___default.a;\r\ndocument.body.appendChild(img);\n\n//# sourceURL=webpack:///./src/file-demo.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _images_img_jpg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./images/img.jpg */ \"./src/images/img.jpg\");\n\r\n\r\nconsole.log(_images_img_jpg__WEBPACK_IMPORTED_MODULE_0__[\"default\"]);\r\n\r\nlet img = new Image();\r\nimg.src = _images_img_jpg__WEBPACK_IMPORTED_MODULE_0__[\"default\"];\r\ndocument.body.appendChild(img);\n\n//# sourceURL=webpack:///./src/file-demo.js?");
 
 /***/ }),
 
@@ -102,10 +102,11 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _ima
 /*!****************************!*\
   !*** ./src/images/img.jpg ***!
   \****************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-eval("throw new Error(\"Module parse failed: Unexpected character '�' (1:0)\\nYou may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders\\n(Source code omitted for this binary file)\");\n\n//# sourceURL=webpack:///./src/images/img.jpg?");
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"031058a341e009e9f3fa7a10375d2225.jpg\");\n\n//# sourceURL=webpack:///./src/images/img.jpg?");
 
 /***/ })
 

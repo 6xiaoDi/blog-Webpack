@@ -39,6 +39,14 @@ module.exports = {
                 // use: 'raw-loader'
                 // use: 'markdown-loader'
                 use: ['html-loader','markdown-loader']
+            },
+
+            {
+                test: /\.(png|jpe?g|gif)$/,
+                // 用到options。use采用对象的形式
+                use: {
+                    loader: 'file-loader'
+                }
             }
         ]
 
