@@ -93,7 +93,7 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("throw new Error(\"Module parse failed: Unexpected token (1:0)\\nFile was processed with these loaders:\\n * ./node_modules/markdown-loader/index.js\\nYou may need an additional loader to handle the result of these loaders.\\n> <h1 id=\\\"web开发\\\">web开发</h1>\\n| <ul>\\n| <li>入门</li>\");\n\n//# sourceURL=webpack:///./src/data/csdn.md?");
+eval("// Module\nvar code = \"<h1 id=\\\"web开发\\\">web开发</h1>\\n<ul>\\n<li>入门</li>\\n<li>js高级工程师</li>\\n<li>全栈工程师</li>\\n</ul>\\n\";\n// Exports\nmodule.exports = code;\n\n//# sourceURL=webpack:///./src/data/csdn.md?");
 
 /***/ }),
 

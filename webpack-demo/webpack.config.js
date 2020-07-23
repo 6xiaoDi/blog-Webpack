@@ -36,8 +36,9 @@ module.exports = {
                 // 多个loader可以使用数组或者对象
                 // 执行顺序使，从右至左
                 // use: 'raw-loader'
-                use: 'markdown-loader'
-            },
+                // use: 'markdown-loader'
+                use: ['html-loader','markdown-loader']
+            }
         ]
 
     }
