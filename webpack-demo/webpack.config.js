@@ -11,6 +11,7 @@ module.exports = {
         'txt-demo': './src/txt-demo.js',
         'markdown-demo': './src/markdown-demo.js',
         'file-demo': './src/file-demo.js',
+        'css-demo': './src/css-demo.js'
     },
 
     output: {
@@ -53,6 +54,15 @@ module.exports = {
                         publicPath: '../dist/images/'
                     }
                 }
+            },
+
+            {
+                test: /\.css$/,
+                use: [
+                    {
+                        loader: 'css-loader'
+                    }
+                ]
             }
         ]
 
