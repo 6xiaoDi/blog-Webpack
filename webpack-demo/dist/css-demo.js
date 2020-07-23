@@ -106,7 +106,7 @@ eval("\n\n/*\n  MIT License http://www.opensource.org/licenses/mit-license.php\n
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _css_css_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./css/css.css */ \"./src/css/css.css\");\n/* harmony import */ var _css_css_css__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_css_css_css__WEBPACK_IMPORTED_MODULE_0__);\n\r\n\r\nconsole.log(_css_css_css__WEBPACK_IMPORTED_MODULE_0___default.a);\n\n//# sourceURL=webpack:///./src/css-demo.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _css_css_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./css/css.css */ \"./src/css/css.css\");\n/* harmony import */ var _css_css_css__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_css_css_css__WEBPACK_IMPORTED_MODULE_0__);\n\r\n\r\nconsole.log(_css_css_css__WEBPACK_IMPORTED_MODULE_0___default.a);\r\n\r\nlet style = document.createElement('style');\r\n\r\nstyle.innerHTML = _css_css_css__WEBPACK_IMPORTED_MODULE_0___default.a[0][1];\r\n\r\ndocument.head.appendChild(style);\n\n//# sourceURL=webpack:///./src/css-demo.js?");
 
 /***/ }),
 
