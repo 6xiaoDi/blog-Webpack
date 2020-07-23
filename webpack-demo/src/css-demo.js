@@ -1,9 +1,11 @@
-import data from './css/css.css';
+// import data from './css/css.css';
+//
+// console.log(data);
+//
+// let style = document.createElement('style');
+//
+// style.innerHTML = data[0][1];
+//
+// document.head.appendChild(style);
 
-console.log(data);
-
-let style = document.createElement('style');
-
-style.innerHTML = data[0][1];
-
-document.head.appendChild(style);
+import './css/css.css';
