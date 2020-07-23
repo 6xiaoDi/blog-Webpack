@@ -90,11 +90,10 @@
 /*!**************************!*\
   !*** ./src/data/csdn.md ***!
   \**************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/*! no static exports found */
+/***/ (function(module, exports) {
 
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"# web开发\\r\\n \\r\\n- 入门\\r\\n- js高级工程师\\r\\n- 全栈工程师\");\n\n//# sourceURL=webpack:///./src/data/csdn.md?");
+eval("throw new Error(\"Module parse failed: Unexpected token (1:0)\\nFile was processed with these loaders:\\n * ./node_modules/markdown-loader/index.js\\nYou may need an additional loader to handle the result of these loaders.\\n> <h1 id=\\\"web开发\\\">web开发</h1>\\n| <ul>\\n| <li>入门</li>\");\n\n//# sourceURL=webpack:///./src/data/csdn.md?");
 
 /***/ }),
 
@@ -106,7 +105,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _data_csdn_md__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./data/csdn.md */ \"./src/data/csdn.md\");\n\r\n\r\nconsole.log(_data_csdn_md__WEBPACK_IMPORTED_MODULE_0__[\"default\"]);\r\n\r\ndocument.body.innerHTML = _data_csdn_md__WEBPACK_IMPORTED_MODULE_0__[\"default\"];\n\n//# sourceURL=webpack:///./src/markdown-demo.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _data_csdn_md__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./data/csdn.md */ \"./src/data/csdn.md\");\n/* harmony import */ var _data_csdn_md__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_data_csdn_md__WEBPACK_IMPORTED_MODULE_0__);\n\r\n\r\nconsole.log(_data_csdn_md__WEBPACK_IMPORTED_MODULE_0___default.a);\r\n\r\ndocument.body.innerHTML = _data_csdn_md__WEBPACK_IMPORTED_MODULE_0___default.a;\n\n//# sourceURL=webpack:///./src/markdown-demo.js?");
 
 /***/ })
 
