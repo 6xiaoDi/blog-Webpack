@@ -43,9 +43,12 @@ module.exports = {
 
             {
                 test: /\.(png|jpe?g|gif)$/,
-                // 用到options。use采用对象的形式
                 use: {
-                    loader: 'file-loader'
+                    loader: 'file-loader',
+                    options: {
+                        //为你的文件配置自定义 `public` 发布目录
+                        publicPath: '../dist/'
+                    }
                 }
             }
         ]
