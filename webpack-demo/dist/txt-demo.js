@@ -90,10 +90,11 @@
 /*!***************************!*\
   !*** ./src/data/csdn.txt ***!
   \***************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-eval("web开发\n\n//# sourceURL=webpack:///./src/data/csdn.txt?");
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"web开发\");\n\n//# sourceURL=webpack:///./src/data/csdn.txt?");
 
 /***/ }),
 
@@ -105,7 +106,7 @@ eval("web开发\n\n//# sourceURL=webpack:///./src/data/csdn.txt?");
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _data_csdn_txt__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./data/csdn.txt */ \"./src/data/csdn.txt\");\n/* harmony import */ var _data_csdn_txt__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_data_csdn_txt__WEBPACK_IMPORTED_MODULE_0__);\n\r\n\r\nconsole.log(_data_csdn_txt__WEBPACK_IMPORTED_MODULE_0___default.a);\n\n//# sourceURL=webpack:///./src/txt-demo.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _data_csdn_txt__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./data/csdn.txt */ \"./src/data/csdn.txt\");\n\r\n\r\nconsole.log(_data_csdn_txt__WEBPACK_IMPORTED_MODULE_0__[\"default\"]);\n\n//# sourceURL=webpack:///./src/txt-demo.js?");
 
 /***/ })
 
