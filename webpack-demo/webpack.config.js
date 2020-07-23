@@ -9,6 +9,7 @@ module.exports = {
         // list: './src/list.js',
 
         'txt-demo': './src/txt-demo.js',
+        'markdown-demo': './src/markdown-demo.js',
     },
 
     output: {
@@ -27,6 +28,11 @@ module.exports = {
                 // test：被加载的模块文件的特征，后缀
                 test: /\.txt$/,
                 // use：使用对应某种loader处理（即在打包之前针对此类型文件进行处理）
+                use: 'raw-loader'
+            },
+
+            {
+                test: /\.md$/,
                 use: 'raw-loader'
             }
         ]
