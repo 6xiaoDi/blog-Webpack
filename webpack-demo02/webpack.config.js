@@ -32,7 +32,15 @@ module.exports = {
             // 模板文件存放的目录
             template: "./html/template.html",
             // 生成（打包）后的html存放目录
-            filename: "app.html"
+            filename: "app.html",
+            minify: {
+                collapseWhitespace: true, // 折叠有助于文档树中文本节点的空白
+                removeComments: true, // 删除HTML注释
+                removeRedundantAttributes: true, // 当值匹配默认值时删除属性。
+                removeScriptTypeAttributes: true, // type="text/javascript"从script标签中删除。其他type属性值保持不变
+                removeStyleLinkTypeAttributes: true, // type="text/css"从style和link标签中删除。其他type属性值保持不变
+                useShortDoctype: true // doctype用短（HTML5）文档类型替换
+            },
         }),
         // new HtmlWebpackPlugin({
         //     // 模板文件存放的目录
