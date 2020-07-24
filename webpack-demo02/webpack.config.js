@@ -33,5 +33,11 @@ module.exports = {
             // 生成（打包）后的html存放目录
             filename: "app.html"
         }),
+        new HtmlWebpackPlugin({
+            // 模板文件存放的目录
+            template: "./html/template1.html",
+            // 生成（打包）后的html存放目录
+            filename: "app1.html"
+        }),
     ],
 };
