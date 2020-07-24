@@ -13,7 +13,8 @@ module.exports = {
     output: {
         // 这个路径是默认会被加入 devServer 的 contentBase 中
         path: path.resolve(__dirname, 'dist'),
-        filename: "[name].js"
+        // filename: "[name].js"
+        filename: "./public/js/[name].js"
     },
 
 
