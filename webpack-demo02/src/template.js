@@ -4,5 +4,10 @@ import './css/index.css';
 console.log('template');
 
 document.onclick = async function() {
-    fn();
+
+    let rs = await fetch("http://localhost:7777/api/data")
+
+    console.log('rs', rs);
+
+    // fn();
 };

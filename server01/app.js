@@ -4,7 +4,11 @@ const KoaRouter = require('koa-router')
 const app = new Koa();
 const router = new KoaRouter();
 
-router.get('/', async ctx => {
+// router.get('/', async ctx => {
+//     ctx.body = '大前端开发';
+// })
+
+router.get('/api/data', async ctx => {
     ctx.body = '大前端开发';
 })
 
