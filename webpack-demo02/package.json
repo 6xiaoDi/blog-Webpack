@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack"
+    "start": "webpack",
+    "server": "webpack-dev-server"
   },
   "keywords": [],
   "author": "",
@@ -21,6 +22,7 @@
     "html-webpack-plugin": "^4.3.0",
     "mini-css-extract-plugin": "^0.9.0",
     "raw-loader": "^4.0.1",
-    "style-loader": "^1.2.1"
+    "style-loader": "^1.2.1",
+    "webpack-dev-server": "^3.11.0"
   }
 }
