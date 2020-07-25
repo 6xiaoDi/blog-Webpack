@@ -1,4 +1,6 @@
 import fn from './fn';
+import fn1 from './fn1';
+import meAlert from './meAlert';
 import './css/index.css';
 
 console.log('template');
@@ -20,6 +22,10 @@ input.onfocus = function() {
     fn1();
 }
 
+let btn = meAlert();
+
+
+
 // console.log(module.hot);
 
 if (module.hot) {
@@ -31,4 +37,10 @@ if (module.hot) {
     module.hot.accept('./fn1', () => {
         console.log('fn1更新了....');
     });
+
+    module.hot.accept('./kkbAlert', () => {
+        console.log('按钮更新了');
+        btn.remove();
+        btn = meAlert();
+    })
 }
