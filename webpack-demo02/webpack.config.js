@@ -81,6 +81,12 @@ module.exports = {
         contentBase: [path.join(__dirname, 'html')], // 项目目录下的html目录映射进去
         open: true, // 自动打开浏览器
         port: 8081,
-        index: 'app.html' // 默认首页
+        index: 'app.html', // 默认首页
+        proxy: {
+            // 服务器代理，当访问'/api'时，就代理到'http://localhost:7777'
+            '/api': {
+                target: 'http://localhost:7777'
+            }
+        }
     }
 };
