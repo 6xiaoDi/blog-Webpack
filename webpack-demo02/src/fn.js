@@ -1,3 +1,3 @@
 export default function() {
-    console.lo('fn........dsdsds');
+    console.log('fn........dsdsds');
 }

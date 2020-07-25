@@ -75,4 +75,12 @@ module.exports = {
             filename: './public/css/[name].css'
         })
     ],
+
+    devServer: {
+        // 多目录，默认会（如果还想将其他目录映射到静态目录中可进行配置此参数）
+        contentBase: [path.join(__dirname, 'html')], // 项目目录下的html目录映射进去
+        open: true, // 自动打开浏览器
+        port: 8081,
+        index: 'app.html' // 默认首页
+    }
 };
