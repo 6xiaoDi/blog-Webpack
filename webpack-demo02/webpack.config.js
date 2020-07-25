@@ -1,5 +1,6 @@
 const path = require('path');
 const HtmlWebpackPlugin = require("html-webpack-plugin");
+const {CleanWebpackPlugin} = require('clean-webpack-plugin');
 
 module.exports = {
 
@@ -49,5 +50,6 @@ module.exports = {
         //     // 生成（打包）后的html存放目录
         //     filename: "app1.html"
         // }),
+        new CleanWebpackPlugin(),
     ],
 };
