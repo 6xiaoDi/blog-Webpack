@@ -1,6 +1,7 @@
 const path = require('path');
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const {CleanWebpackPlugin} = require('clean-webpack-plugin');
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
 module.exports = {
 
@@ -28,7 +29,14 @@ module.exports = {
 
             {
                 test: /\.css$/,
-                use: ["style-loader","css-loader"]
+                // use: ["style-loader","css-loader"]
+                // 不希望通过js的方式生成style标签，因此不需要"style-loader",
+                use: [
+                    {
+                        loader: MiniCssExtractPlugin.loader
+                    },
+                    "css-loader"
+                ]
             }
         ]
     },
@@ -56,5 +64,9 @@ module.exports = {
         //     filename: "app1.html"
         // }),
         new CleanWebpackPlugin(),
+        // 设置css提取路径
+        new MiniCssExtractPlugin({
+            filename: './public/css/[name].css'
+        })
     ],
 };
