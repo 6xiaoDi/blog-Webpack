@@ -81,59 +81,40 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = "./src/template.js");
+/******/ 	return __webpack_require__(__webpack_require__.s = 1);
 /******/ })
 /************************************************************************/
-/******/ ({
-
-/***/ "./src/css/index.css":
-/*!***************************!*\
-  !*** ./src/css/index.css ***!
-  \***************************/
-/*! no static exports found */
+/******/ ([
+/* 0 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // extracted by mini-css-extract-plugin
 
 /***/ }),
-
-/***/ "./src/fn.js":
-/*!*******************!*\
-  !*** ./src/fn.js ***!
-  \*******************/
-/*! exports provided: default */
+/* 1 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+// ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (function() {
+
+// CONCATENATED MODULE: ./src/fn.js
+/* harmony default export */ var fn = (function() {
     console.lo('fn........dsdsds');
 });
+// EXTERNAL MODULE: ./src/css/index.css
+var css = __webpack_require__(0);
 
-/***/ }),
-
-/***/ "./src/template.js":
-/*!*************************!*\
-  !*** ./src/template.js ***!
-  \*************************/
-/*! no exports provided */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _fn__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./fn */ "./src/fn.js");
-/* harmony import */ var _css_index_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./css/index.css */ "./src/css/index.css");
-/* harmony import */ var _css_index_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_css_index_css__WEBPACK_IMPORTED_MODULE_1__);
+// CONCATENATED MODULE: ./src/template.js
 
 
 
 console.log('template');
 
 document.onclick = async function() {
-    Object(_fn__WEBPACK_IMPORTED_MODULE_0__["default"])();
+    fn();
 };
 
 /***/ })
-
-/******/ });
+/******/ ]);
 //# sourceMappingURL=template.js.map

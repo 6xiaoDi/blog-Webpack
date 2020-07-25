@@ -5,8 +5,8 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
 module.exports = {
 
-    mode: 'development',
-    //mode: 'production',
+    // mode: 'development',
+    mode: 'production',
     devtool: 'source-map',
 
     entry: {
@@ -21,6 +21,9 @@ module.exports = {
         filename: "./public/js/[name].js"
     },
 
+    optimization: {    // 1. 这个配置必须
+        minimize: false
+    },
 
     module: {
         rules: [
